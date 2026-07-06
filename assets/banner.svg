@@ -1,68 +1,38 @@
-<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="11" cy="11" r="3" fill="#000000" opacity="0.08"/>
-    </pattern>
-  </defs>
+<svg width="620" height="62" viewBox="0 0 620 62" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- hard offset shadow -->
-  <rect x="12" y="12" width="876" height="100" rx="26" fill="#000000"/>
-
-  <!-- main card -->
-  <rect x="6" y="6" width="876" height="100" rx="26" fill="#FFE600" stroke="#000000" stroke-width="6"/>
-  <rect x="6" y="6" width="876" height="100" rx="26" fill="url(#dots)"/>
-
-  <!-- accent shapes -->
-  <circle cx="60" cy="32" r="14" fill="#FF3E9E" stroke="#000000" stroke-width="3.5">
-    <animate attributeName="r" values="14;17;14" dur="2.4s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="840" cy="30" r="11" fill="#00D4FF" stroke="#000000" stroke-width="3">
-    <animate attributeName="r" values="11;14;11" dur="2s" repeatCount="indefinite" begin="0.5s" />
-  </circle>
-  <rect x="48" y="72" width="28" height="28" rx="7" fill="#8B5CF6" stroke="#000000" stroke-width="3" transform="rotate(-12 62 86)">
-    <animateTransform attributeName="transform" type="rotate" values="-12 62 86; 8 62 86; -12 62 86" dur="3.6s" repeatCount="indefinite" />
-  </rect>
-  <rect x="820" y="66" width="32" height="32" rx="9" fill="#B6FF3E" stroke="#000000" stroke-width="3" transform="rotate(10 836 82)">
-    <animateTransform attributeName="transform" type="rotate" values="10 836 82; -10 836 82; 10 836 82" dur="3.2s" repeatCount="indefinite" />
+  <!-- shadow (sharp rectangle) — offset 6px right+down -->
+  <rect id="pill-shadow" x="8" y="8" width="608" height="44" rx="0" fill="#000000">
+    <animate attributeName="x" values="8;10;8" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
+    <animate attributeName="y" values="8;10;8" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
   </rect>
 
-  <!-- tagline pill — acts as a button with press animation -->
-  <g id="pill-btn">
-    <!-- shadow offset (shrinks on press) -->
-    <rect id="pill-shadow" x="146" y="42" width="608" height="42" rx="21" fill="#000000">
-      <animate attributeName="x" values="146;148;146" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
-      <animate attributeName="y" values="42;44;42" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
-    </rect>
-    <!-- pill face (moves down on press) -->
-    <rect id="pill-face" x="140" y="36" width="608" height="42" rx="21" fill="#FF3E9E" stroke="#000000" stroke-width="4">
-      <animate attributeName="x" values="140;142;140" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
-      <animate attributeName="y" values="36;38;36" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
-    </rect>
-    <!-- pill label (moves with face) -->
-    <text id="pill-text" x="450" y="63" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">
-      FULL-STACK + SOFTWARE DESIGN + APPLIED AI
-      <animate attributeName="x" values="450;452;450" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
-      <animate attributeName="y" values="63;65;63" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
-    </text>
-  </g>
+  <!-- face — inset by stroke-width/2 (2px) on every side so stroke is never clipped -->
+  <rect id="pill-face" x="2" y="2" width="606" height="44" rx="0" fill="#FF3E9E" stroke="#000000" stroke-width="4">
+    <animate attributeName="x" values="2;4;2" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
+    <animate attributeName="y" values="2;4;2" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
+    <animate attributeName="fill" values="#FF3E9E;#8B5CF6;#00D4FF;#B6FF3E;#FFE600;#FF3E9E" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </rect>
 
-  <!-- pointer cursor — animates toward the pill then clicks -->
+  <!-- label -->
+  <text id="pill-text" x="307" y="24" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" letter-spacing="0.5">
+    FULL-STACK + SOFTWARE DESIGN + APPLIED AI
+    <animate attributeName="x" values="307;309;307" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
+    <animate attributeName="y" values="24;26;24" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
+  </text>
+
+  <!-- pointer cursor -->
   <g id="cursor">
-    <!-- move cursor in from bottom-right toward pill center, then slight lift -->
     <animateTransform attributeName="transform" type="translate"
-      values="660,105; 500,58; 500,62; 500,58; 660,105"
+      values="460,80; 315,22; 315,26; 315,22; 460,80"
       keyTimes="0; 0.35; 0.45; 0.55; 1"
       dur="1.8s" repeatCount="indefinite" begin="0s"
       calcMode="spline"
       keySplines="0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1"/>
-
-    <!-- cursor body -->
     <polygon points="0,0 0,22 6,17 10,26 13,25 9,16 16,16" fill="#FFFFFF" stroke="#000000" stroke-width="1.8" stroke-linejoin="round"/>
-
-    <!-- click ripple — appears only during the press -->
     <circle cx="8" cy="10" r="0" fill="none" stroke="#FF3E9E" stroke-width="2.5" opacity="0">
       <animate attributeName="r" values="0;0;0;18;26" keyTimes="0;0.34;0.44;0.55;0.7" dur="1.8s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;0;0.8;0" keyTimes="0;0.34;0.44;0.55;0.7" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#FF3E9E;#8B5CF6;#00D4FF;#B6FF3E;#FFE600;#FF3E9E" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
     </circle>
   </g>
 </svg>
