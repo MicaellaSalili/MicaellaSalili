@@ -6,9 +6,9 @@
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=MicaellaSalili&style=for-the-badge&color=8b5cf6&label=Profile+Views)
-![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMicaellaSalili&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&color=8b5cf6)
-![Status](https://img.shields.io/badge/Status-Open%20to%20Opportunities-8b5cf6?style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=MicaellaSalili&style=for-the-badge&color=000000&label=Profile+Views)
+![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMicaellaSalili&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&color=000000)
+![Status](https://img.shields.io/badge/Status-Open%20to%20Opportunities-000000?style=for-the-badge)
 
 </div>
 
