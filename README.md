@@ -45,9 +45,6 @@
 ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-![Apache Cordova](https://img.shields.io/badge/-Apache_Cordova-E8E8E8?style=flat-square&logo=apachecordova&logoColor=black)
-![Chart.js](https://img.shields.io/badge/-Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
-![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![WordPress](https://img.shields.io/badge/-WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
 
 </td>
@@ -81,7 +78,6 @@
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![phpMyAdmin](https://img.shields.io/badge/-phpMyAdmin-E07325?style=flat-square&logo=phpmyadmin&logoColor=white)
-![MQTT](https://img.shields.io/badge/-MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 ![XAMPP](https://img.shields.io/badge/-XAMPP-FB7A24?style=flat-square&logo=xampp&logoColor=white)
 
 </td>
@@ -95,8 +91,6 @@
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow Lite](https://img.shields.io/badge/-TensorFlow_Lite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![YOLOv8n](https://img.shields.io/badge/-YOLOv8n-00FFFF?style=flat-square&logo=yolo&logoColor=black)
-![Tesseract OCR](https://img.shields.io/badge/-Tesseract_OCR-4285F4?style=flat-square&logo=google&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
 
 </td>
 </tr>
@@ -115,8 +109,6 @@
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![REST API](https://img.shields.io/badge/-REST_API-000000?style=flat-square&logo=openapiinitiative&logoColor=white)
-![SignalR](https://img.shields.io/badge/-SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Web Serial API](https://img.shields.io/badge/-Web_Serial_API-000000?style=flat-square&logo=googlechrome&logoColor=white)
 ![LLM Prompting](https://img.shields.io/badge/-LLM_Prompting-8E75B2?style=flat-square&logo=openai&logoColor=white)
 
 </td>
