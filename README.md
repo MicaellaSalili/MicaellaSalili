@@ -64,6 +64,8 @@
 ![JUnit](https://img.shields.io/badge/-JUnit-25A162?style=flat-square&logo=junit&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/-Tkinter-4B8BBE?style=flat-square&logo=python&logoColor=white)
 ![PySerial](https://img.shields.io/badge/-PySerial-3776AB?style=flat-square&logo=python&logoColor=white)
+![REST API](https://img.shields.io/badge/-REST_API-000000?style=flat-square&logo=openapiinitiative&logoColor=white)
+
 
 </td>
 </tr>
@@ -91,6 +93,7 @@
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow Lite](https://img.shields.io/badge/-TensorFlow_Lite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![YOLOv8n](https://img.shields.io/badge/-YOLOv8n-00FFFF?style=flat-square&logo=yolo&logoColor=black)
+![LLM Prompting](https://img.shields.io/badge/-LLM_Prompting-8E75B2?style=flat-square&logo=openai&logoColor=white)
 
 </td>
 </tr>
@@ -108,8 +111,6 @@
 ![PostCSS](https://img.shields.io/badge/-PostCSS-DD3A0A?style=flat-square&logo=postcss&logoColor=white)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![REST API](https://img.shields.io/badge/-REST_API-000000?style=flat-square&logo=openapiinitiative&logoColor=white)
-![LLM Prompting](https://img.shields.io/badge/-LLM_Prompting-8E75B2?style=flat-square&logo=openai&logoColor=white)
 
 </td>
 </tr>
